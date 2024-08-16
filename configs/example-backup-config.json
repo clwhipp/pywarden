@@ -1,0 +1,25 @@
+{
+    "ca_root_certificate" : "Path to Root CA Certificate here",
+    "server_url" : "URL to Vaultwarden here",
+    "accounts" : {
+        "v1 (Password Auth) - Password Example with default export format" : {
+            "email" : "test+alice@gmail.com"
+        },
+        "v1 (Password Auth) - Password Example with encryption" : {
+            "email" : "test+alice@gmail.com",
+            "format" : "encrypted_json"
+        },
+        "v2 (API Key Auth) - API Key Example" : {
+            "email" : "test+bob@gmail.com",
+            "client_id" : "",
+            "client_secret" : "",
+            "format" : "json"
+        },
+        "v2 (API Key Auth) - API Key Example with csv export" : {
+            "email" : "test+bob@gmail.com",
+            "client_id" : "",
+            "client_secret" : "",
+            "format" : "csv"
+        }
+    }
+}
